@@ -8,6 +8,6 @@ spec:
     server: https://kubernetes.default.svc
   project: myteam-myapp-dev
   source:
-    path: hello-kubernetes/yaml/dev
+    path: yaml/dev
     repoURL: https://github.com/slaterin/hello-kubernetes.git
     targetRevision: master
