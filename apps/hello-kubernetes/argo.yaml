@@ -1,0 +1,13 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: myteam-hellokubernetes-dev
+spec:
+  destination:
+    namespace: argocd
+    server: https://kubernetes.default.svc
+  project: myteam-myapp-dev
+  source:
+    path: hello-kubernetes/yaml/dev
+    repoURL: https://github.com/slaterin/hello-kubernetes.git
+    targetRevision: master
