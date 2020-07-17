@@ -4,7 +4,7 @@ metadata:
   name: myteam-hellokubernetes-dev
 spec:
   destination:
-    namespace: argocd
+    namespace: myteam-myapp-dev
     server: https://kubernetes.default.svc
   project: myteam-myapp-dev
   source:
