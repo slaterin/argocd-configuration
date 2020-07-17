@@ -6,7 +6,7 @@ spec:
   destination:
     namespace: myteam-myapp-dev
     server: https://kubernetes.default.svc
-  project: myteam-myapp-dev
+  project: default
   source:
     path: yaml/dev
     repoURL: https://github.com/slaterin/hello-kubernetes.git
